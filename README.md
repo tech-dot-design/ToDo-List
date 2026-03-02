@@ -25,6 +25,9 @@ Team Members:
 Working collaboratively on this project improved our communication, problem-solving, and technical skills. Grateful for the teamwork and shared learning experience.
 
 Looking forward to building more impactful software solutions 
+
+
+
 <img width="387" height="861" alt="1" src="https://github.com/user-attachments/assets/73862439-cba8-4435-8cec-1b578e3e16d2" />
 <img width="386" height="865" alt="2" src="https://github.com/user-attachments/assets/fd4ccb2f-fe56-4c7a-b64e-b29c8bb2bc26" />
 <img width="384" height="862" alt="3" src="https://github.com/user-attachments/assets/a791e62f-f56d-4a0c-9def-32f650e0ac01" />

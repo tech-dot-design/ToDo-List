@@ -1,90 +1,37 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+I’m happy to share that our team has successfully completed the To-Do & Productivity Analyzer Mobile Application developed using React Native.
 
-# Getting Started
+ About the Project:
+This application is designed to help users manage daily tasks efficiently while also analyzing productivity levels. Our focus was on building a clean, user-friendly interface combined with meaningful productivity insights.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+ Key Features:
+•⁠  ⁠Task creation and management
+•⁠  ⁠Deadline-based task sorting
+•⁠  ⁠Productivity tracking and analysis
+•⁠  ⁠Responsive and intuitive UI
+•⁠  ⁠Performance optimization
 
-## Step 1: Start Metro
+ Tech Stack:
+React Native, JavaScript, Git
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+This project helped us strengthen our understanding of mobile app development, UI design, teamwork, debugging, and project coordination.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Team Members:
+•⁠  ⁠Amal Dev K
+•⁠  ⁠Roy Lijoe Chittissery
+•⁠  ⁠Mathew C Kurian
+•⁠  ⁠Philip Jose Madathil
 
-```sh
-# Using npm
-npm start
+Working collaboratively on this project improved our communication, problem-solving, and technical skills. Grateful for the teamwork and shared learning experience.
 
-# OR using Yarn
-yarn start
-```
+Looking forward to building more impactful software solutions 
 
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+<img width="388" height="866" alt="Screenshot 2026-03-03 at 00 52 01" src="https://github.com/user-attachments/assets/bd9f96cf-34ac-41a2-8683-0bb1173e78c1" />
+<img width="387" height="863" alt="Screenshot 2026-03-03 at 00 51 49" src="https://github.com/user-attachments/assets/29d369ad-f459-4152-8da5-97fb6f66c842" />
+<img width="386" height="859" alt="Screenshot 2026-03-03 at 00 51 35" src="https://github.com/user-attachments/assets/c6e9bf12-81e9-4487-88f2-2a4a451ba3a8" />
+<img width="384" height="862" alt="Screenshot 2026-03-03 at 00 51 16" src="https://github.com/user-attachments/assets/57266501-72c8-41fa-adcc-d63c6aecc206" />
+<img width="386" height="865" alt="Screenshot 2026-03-03 at 00 50 54" src="https://github.com/user-attachments/assets/4d96f6bd-78e1-4c40-9641-3579e741cc65" />
+<img width="387" height="861" alt="Screenshot 2026-03-03 at 00 50 03" src="https://github.com/user-attachments/assets/e9d4b902-bf46-46ce-9b6e-7a86da383475" />
 
 # Learn More
 

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
-type Task = {
+export type Task = {
   id: string;
   title: string;
   description: string;

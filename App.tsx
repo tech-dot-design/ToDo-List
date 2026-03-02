@@ -1,45 +1,41 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { TaskProvider } from './context/TaskContext';
+import Icon from 'react-native-vector-icons/Ionicons';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import DashboardScreen from './screens/DashboardScreen';
+import TasksScreen from './screens/TasksScreen';
+import AnalyticsScreen from './screens/AnalyticsScreen';
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+const Tab = createBottomTabNavigator();
 
+export default function App() {
   return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
+    <TaskProvider>
+      <NavigationContainer>
+        <Tab.Navigator
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ color, size }) => {
+            let iconName: string;
+
+            if (route.name === 'Dashboard') {
+              iconName = 'home';
+            } else if (route.name === 'Tasks') {
+              iconName = 'list';
+            } else {
+              iconName = 'bar-chart';
+            }
+
+            return <Icon name={iconName} size={size} color={color} />;
+          },
+        })}
+      >
+          <Tab.Screen name="Dashboard" component={DashboardScreen} />
+          <Tab.Screen name="Tasks" component={TasksScreen} />
+          <Tab.Screen name="Analytics" component={AnalyticsScreen} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </TaskProvider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
-
-export default App;
